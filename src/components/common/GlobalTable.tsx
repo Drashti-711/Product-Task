@@ -7,7 +7,7 @@ interface TableProps {
     data: Person[],
     renderRowActions: any
 }
-const GlobalTable = ({ renderRowActions, columns, data }: TableProps) => {
+const GlobalTable = ({ renderRowActions, columns, data=[] }: TableProps) => {
 
     const tableOption = useMantineReactTable({
         columns,

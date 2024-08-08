@@ -12,9 +12,9 @@ export type ProductType = z.infer<typeof ProductSchema>
 
 export const ProductInitialValue = {
     name: '',
-    price: null,
+    price: '',
     description: '',
-    quantity: null,
+    quantity: '',
     id: null
 }
 
